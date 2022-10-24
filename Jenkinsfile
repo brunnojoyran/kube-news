@@ -9,9 +9,7 @@ pipeline {
                     dockerapp = docker.build("joyran/kube-news:${env.BUILD_ID}", '-f ./src/Dockerfile ./src')
                 }
             }
-
         }
-
 
     }
 
